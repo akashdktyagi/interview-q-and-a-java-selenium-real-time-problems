@@ -1,18 +1,3 @@
-# interview-q-and-a-java-selenium-real-time-problems
-This aim of this repo is to maintain the questions and solutions for typical Automation Testing Code related Interviews.
-
----
-
-> * Created by <b>Akash Tyagi</b> on 10 Feb 2021 for training purposes
-> * Download the whole repo and navigate to the mentioned class to execute the program in your system.
-
----
-
-### List of Programs and their solutions which are being asked in  Real Time Automation Testing interviews.
-
-* Find Factorial of the Number using Recursion technique
-
-```java
 /*
 Created by Akash Tyagi on 10 Feb 2021 for training purposes
 Download the whole repo and navigate to the mentioned class to execute the program in your system.
@@ -56,6 +41,4 @@ public class _1_Factorial_Recursive {
 Output:
 Simple Factorial Program Output: 120
 Recursive Factorial Program Output: 120
-*/
-
-```
+ */
