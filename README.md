@@ -10,7 +10,7 @@ This aim of this repo is to maintain the questions and solutions for typical Aut
 
 ### List of Programs and their solutions which are being asked in  Real Time Automation Testing interviews.
 
-* 1. Problem: Find Factorial of the Number using Recursion technique
+### 1.Problem: Find Factorial of the Number using Recursion technique
 
 ```java
 /*
@@ -65,7 +65,7 @@ Recursive Factorial Program Output: 120
 ```
 ---
 
-* 2. Problem: Write a code which takes any String and prints all the words and their corresponding count
+### 2.Problem: Write a code which takes any String and prints all the words and their corresponding count
 
 ```java
 /*
@@ -119,7 +119,8 @@ Output: {I=5, Akash=4, am=5}
 
 ---
 
-* 4. Problem: Remove All numbers from the String
+### 4.Problem: Remove All numbers from the String
+
 * Use Link to know more on Regular Expression: https://www.w3schools.com/java/java_regex.asp
 
 ```java
@@ -153,7 +154,7 @@ Output: I am Akash I am Akash I Am Akash
 
 ---
 
-* 5. Cucumber tags And, Or, Not Operations.
+### 5.Cucumber tags And, Or, Not Operations.
     
 * Tags can be sent from maven command line using: ```mvn test -Dcucumber.filter.tags="@sanity and @regression"```
 * Also can be sent from cucumber options: ```@CucumberOptions(tags = "@smoke and @fast")```
