@@ -1,6 +1,10 @@
-/*
-Created by Akash Tyagi on 10 Feb 2021 for training purposes
+package com.automationfraternity;/*
+Create by Akash Tyagi on 10 Feb 2021.
 Download the whole repo and navigate to the mentioned class to execute the program in your system.
+ */
+
+/*
+Problem: Find Factorial of the Number using Recursion technique
  */
 public class _1_Factorial_Recursive {
     /*
