@@ -1,4 +1,4 @@
-package com.automationfraternity;/*
+/*
 Create by Akash Tyagi on 10 Feb 2021.
 Download the whole repo and navigate to the mentioned class to execute the program in your system.
  */
@@ -6,6 +6,7 @@ Download the whole repo and navigate to the mentioned class to execute the progr
 /*
 Problem: Find Factorial of the Number using Recursion technique
  */
+package com.automationfraternity;
 public class _1_Factorial_Recursive {
     /*
     Recursive means calling itself. For some people, if you are fond of using for loops its not very natural.
