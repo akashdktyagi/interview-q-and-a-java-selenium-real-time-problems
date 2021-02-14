@@ -1,4 +1,4 @@
-package com.automationfraternity;/*
+/*
 Create by Akash Tyagi on 11 Feb 2021.
 Download the whole repo and navigate to the mentioned class to execute the program in your system.
  */
@@ -6,6 +6,8 @@ Download the whole repo and navigate to the mentioned class to execute the progr
 /*
 Problem: Write a code which takes any String and prints all the words and their corresponding count
  */
+package com.automationfraternity;
+
 import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

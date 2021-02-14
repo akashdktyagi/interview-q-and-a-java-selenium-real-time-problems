@@ -119,7 +119,7 @@ Output: {I=5, Akash=4, am=5}
 
 ---
 
-### 4.Problem: Remove All numbers from the String
+### 3.Problem: Remove All numbers from the String
 
 * Use Link to know more on Regular Expression: https://www.w3schools.com/java/java_regex.asp
 
@@ -154,7 +154,7 @@ Output: I am Akash I am Akash I Am Akash
 
 ---
 
-### 5.Cucumber tags And, Or, Not Operations.
+### 4. Cucumber tags And, Or, Not Operations.
     
 * Tags can be sent from maven command line using: ```mvn test -Dcucumber.filter.tags="@sanity and @regression"```
 * Also can be sent from cucumber options: ```@CucumberOptions(tags = "@smoke and @fast")```
@@ -224,4 +224,54 @@ public class _4_Cucumber_Tags_Problem_Glue {
     @Given("I am Scenario8 Sanity and Regression both")
     public void i_am_scenario8_sanity_and_regression_both() { System.out.println("Scn 8 - Sanity & Regression");}
 }
+```
+---
+
+### 5. Print Patterns
+
+* These are very common code questions people ask in the interviews.
+* There is no other way then to practice them and they also help in logic building.
+* Not putting in whole code here. Please check the code under ```src/main/java/com/automationfraternity/_5_Print_Patterns.java``` file.
+* Usefull Link: Usefull Links: https://www.programiz.com/java-programming/examples/pyramid-pattern
+
+```text
+
+
+Below are the patterns covered:
+Output for: m1_print_a_string_as_pyramid
+      
+     A
+    Aka
+   Akash
+  Akash12
+ Akash1234
+Akash123456
+
+Output for: m2_print_half_pyramid_using_star
+
+*
+**
+***
+****
+
+Output for: m3_print_half_pyramid_using_numbers
+1
+12
+123
+1234
+12345
+
+Output for: m4_print_half_pyramid_using_alphabets
+
+A
+AB
+ABC
+ABCD
+
+Output for: m5_print_half_pyramid_using_alphabets
+A
+BB
+CCC
+DDDD
+EEEEE
 ```
