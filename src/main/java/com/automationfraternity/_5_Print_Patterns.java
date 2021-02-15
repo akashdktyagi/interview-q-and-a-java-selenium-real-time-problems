@@ -116,9 +116,6 @@ public class _5_Print_Patterns {
             }
             System.out.println("");
         }
-
-
-
     }
 
     public static void m7_print_inverted_pyramid_of_star(int pyramidMaxCharacters){
@@ -182,4 +179,18 @@ BB
 CCC
 DDDD
 EEEEE
+
+Output for: m6_print_inverted_half_pyramid
+*****
+****
+***
+**
+*
+
+Output for: m7_print_inverted_pyramid_of_star
+*********
+ *******
+  *****
+   ***
+    *
 */
