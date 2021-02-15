@@ -235,9 +235,6 @@ public class _4_Cucumber_Tags_Problem_Glue {
 * Usefull Link: https://www.programiz.com/java-programming/examples/pyramid-pattern
 
 ```text
-
-
-Below are the patterns covered:
 Output for: m1_print_a_string_as_pyramid
       
      A
@@ -274,6 +271,21 @@ BB
 CCC
 DDDD
 EEEEE
+
+Output for: m6_print_inverted_half_pyramid
+*****
+****
+***
+**
+*
+
+Output for: m7_print_inverted_pyramid_of_star
+*********
+ *******
+  *****
+   ***
+    *
+     
 ```
 
 ---
@@ -453,3 +465,54 @@ public class _7_Selenium_Xpath_Axes_Table_Handling {
  > ![Image](Screenshot%202021-02-14%20at%206.36.32%20PM.png)
  
  > ![Image](Screenshot%202021-02-14%20at%206.36.42%20PM.png)
+ 
+---
+
+### 8. Singleton Class Data Base Connection
+
+```java
+/*
+Create by Akash Tyagi on 10 Feb 2021.
+Download the whole repo and navigate to the mentioned class to execute the program in your system.
+ */
+
+/*
+Problem: What is Singleton Class, where do we use it
+* Link: https://www.geeksforgeeks.org/singleton-class-java/
+
+*/
+package com.automationfraternity;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class _8_Singleton_Pattern_For_DB {
+    private static _8_Singleton_Pattern_For_DB instance;
+    private Connection conn;
+
+    private _8_Singleton_Pattern_For_DB(String url) {
+
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            this.conn = DriverManager.getConnection(url);
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+
+    public Connection getConnection() {
+        return this.conn;
+    }
+
+    public static _8_Singleton_Pattern_For_DB getInstance(String url) throws SQLException {
+        if (instance==null) {
+            instance= new _8_Singleton_Pattern_For_DB(url);
+        }else if (instance.getConnection().isClosed()) {
+            instance= new _8_Singleton_Pattern_For_DB(url);
+        }
+        return instance;
+    }
+}
+```

@@ -6,7 +6,7 @@ Download the whole repo and navigate to the mentioned class to execute the progr
 /*
 Problem: Use of Xpath Axes to handle various ops in Web Table
 Use Link: https://www.w3schools.com/xml/xpath_axes.asp
- */
+*/
 package com.automationfraternity;
 
 import org.openqa.selenium.By;

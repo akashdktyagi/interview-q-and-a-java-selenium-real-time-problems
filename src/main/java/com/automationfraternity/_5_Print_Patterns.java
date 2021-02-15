@@ -12,6 +12,7 @@ public class _5_Print_Patterns {
 
     public static void main(String[] args){
         //Problem:1 Write a method which accepts a String and prints it in Pyramid pattern
+        // Hint: For pyramid only two things to remember. 2i-1 for pyramid and (maxNum -2i) for inverted Pyramid
         m1_print_a_string_as_pyramid("Akash123456");
 
         //Problem:2 Write a method which accepts a number of rows and a character and prints it in half Pyramid pattern
@@ -26,13 +27,19 @@ public class _5_Print_Patterns {
         //Problem:5 Write a method which accepts a number of rows and prints  half pyramid using alphabets
         m5_print_half_pyramid_using_alphabets(5);
 
-        //Inverted
-        //yet to be Done
+        //Problem:6 Write a method which accepts a number of rows and prints inverted half pyramid of *
+        m6_print_inverted_half_pyramid(5);
+
+        //Problem:7 Write a method which accepts a number of rows and prints inverted pyramid of *
+        //Hint: For pyramid only two things to remember. 2i-1 for pyramid and (maxNum -2i) for inverted Pyramid
+        m7_print_inverted_pyramid_of_star(9);
 
         //Pascal
         //yet to be done
 
         //Febonachi Series
+        //Yet to be written
+
 
     }
 
@@ -101,6 +108,35 @@ public class _5_Print_Patterns {
         }
     }
 
+    public static void m6_print_inverted_half_pyramid(int numberOfRows){
+        System.out.println("\nOutput for: m6_print_inverted_half_pyramid");
+        for(int i=numberOfRows;i > 0; i--){
+            for (int j=0;j<i;j++){
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+
+
+
+    }
+
+    public static void m7_print_inverted_pyramid_of_star(int pyramidMaxCharacters){
+        System.out.println("\nOutput for: m7_print_inverted_pyramid_of_star");
+        for(int i=0;i<pyramidMaxCharacters;i++){
+
+            //write gaps
+            for(int j=0;j<i;j++){
+                System.out.print(" ");
+            }
+
+            //write character
+            for(int k=0;k<(pyramidMaxCharacters - 2*i);k++){
+                System.out.print("*");
+            }
+            System.out.print("\n");
+        }
+    }
 }
 
 /* Text:
