@@ -48,6 +48,10 @@ public class _9_Java_String_Ops_Questions {
         //-------------------------------------------------------------------------------------------------
         //yet to be written
         /*
+        1. m1_get_the_max_occuring_char_in_string
+        2. m2_remove_all_duplicates_from_string
+        3. m3_remove_duplicate_characters_from_first_string_present_in_second_string
+        4. m4_check_string_is_rotation_or_not
         5. Reverse a string
         6. print all permutations
         7. Reverse the words in the Sentence
