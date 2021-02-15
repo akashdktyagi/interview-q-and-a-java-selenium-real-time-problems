@@ -46,7 +46,7 @@ This aim of this repo is to maintain the questions and solutions for typical Aut
 
 * Check this link for more: https://cucumber.io/docs/cucumber/api/
 
-> ![Image](1.png)
+> ![Image](screenShots/1.png)
 
 * Runner File:
 > [Click Here for Solution](src/main/java/com/automationfraternity/_4_Cucumber_Tags_Problem.java)
@@ -164,6 +164,7 @@ Output for: m7_print_inverted_pyramid_of_star
 
 > [Click Here for Solution](src/main/java/com/automationfraternity/_9_Java_String_Ops_Questions.java)
 
+* Below Questions are covered in the solution above
 ```text
   1. m1_get_the_max_occuring_char_in_string
   2. m2_remove_all_duplicates_from_string
