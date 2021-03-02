@@ -144,13 +144,13 @@ Output for: m7_print_inverted_pyramid_of_star
 
 
 * Xpath Axes example to identify the parent and sibling with respect to one element
-  > ![Image](Screenshot%202021-02-14%20at%206.35.04%20PM.png)
+  > ![Image](screenShots/Screenshot%202021-02-14%20at%206.35.04%20PM.png)
   
 * Some Use-full Xpath Axes. 
 * Refer link for more info: https://www.w3schools.com/xml/xpath_axes.asp
- > ![Image](Screenshot%202021-02-14%20at%206.36.32%20PM.png)
+ > ![Image](screenShots/Screenshot%202021-02-14%20at%206.36.32%20PM.png)
  
- > ![Image](Screenshot%202021-02-14%20at%206.36.42%20PM.png)
+ > ![Image](screenShots/Screenshot%202021-02-14%20at%206.36.42%20PM.png)
  
 ---
 
