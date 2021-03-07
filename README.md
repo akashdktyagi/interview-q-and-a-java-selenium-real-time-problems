@@ -180,3 +180,13 @@ Output for: m7_print_inverted_pyramid_of_star
   12. How do you check if a given string contains valid parentheses?
 ```
 
+---
+### 16. Web Driver Listener
+* Web Driver have a another implementation of Web Driver in the form of the class ```EventFiringWebDrvier```.
+* This Class has all the features of a typical Web Driver but with inherent capability of logging for various web driver events.
+* Please check the Impl for the same in these below two classes.
+* To make selenium work, you need to add the chromedriver file in the root directory of this repo.
+> This holds the Listener Class: [Click here for Solution](src/main/java/com/automationfraternity/_16_1_WebDriverEvenListenerImpl.java)
+> This holds the sample Test: [Click here for Solution](src/main/java/com/automationfraternity/_16_Selenium_WebDriver_Listeners.java)
+
+---
