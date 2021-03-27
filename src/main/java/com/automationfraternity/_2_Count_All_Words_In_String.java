@@ -15,10 +15,8 @@ import java.util.regex.Pattern;
 public class _2_Count_All_Words_In_String {
 
     public static void main(String[] args){
-
         String simpleStringOnlySpaces = "I am Akash I am Akash I am Akash I am Akash I am";
         GetCountOfEachWordInAString(simpleStringOnlySpaces);
-
     }
 
     // Assuming-Simple String no special characters.
